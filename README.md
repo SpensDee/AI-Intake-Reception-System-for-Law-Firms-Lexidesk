@@ -4,12 +4,14 @@ Lexidesk is an AI-powered legal intake and reception platform built exclusively 
 
 Lexidesk helps law firms answer calls 24/7, capture more qualified leads, reduce missed opportunities, and replace or supplement traditional legal receptionists and call centers.
 
+---
+
 ## Website
 
-* [Lexidesk Official Website](https://lexidesk.ai?utm_source=chatgpt.com)
-* [Lexidesk LinkedIn](https://www.linkedin.com/company/lexidesk-ai?utm_source=chatgpt.com)
-* [Lexidesk X (Twitter)](https://x.com/LexideskAI?utm_source=chatgpt.com)
-* [Lexidesk Instagram](https://www.instagram.com/lexidesk/?utm_source=chatgpt.com)
+* [Lexidesk Official Website](https://lexidesk.ai)
+* [Lexidesk LinkedIn](https://www.linkedin.com/company/lexidesk-ai)
+* [Lexidesk X (Twitter)](https://x.com/LexideskAI)
+* [Lexidesk Instagram](https://www.instagram.com/lexidesk/)
 
 ---
 
@@ -30,14 +32,14 @@ Lexidesk provides:
 
 The platform is designed specifically for:
 
-* Family Law Firms
-* Personal Injury Lawyers
-* Immigration Attorneys
-* Criminal Defense Law Firms
-* Estate Planning Lawyers
-* Probate Attorneys
-* Employment Law Firms
-* Conveyancing & Real Estate Law Firms
+* [Family Law Firms](https://lexidesk.ai/family-law)
+* [Personal Injury Lawyers](https://lexidesk.ai/personal-injury)
+* [Immigration Attorneys](https://lexidesk.ai/immigration-law)
+* [Criminal Defense Law Firms](https://lexidesk.ai/criminal-defense)
+* [Estate Planning Lawyers](https://lexidesk.ai/estate-planning)
+* [Probate Attorneys](https://lexidesk.ai/probate)
+* [Employment Law Firms](https://lexidesk.ai/employment-law)
+* [Conveyancing & Real Estate Law Firms](https://lexidesk.ai/conveyancing)
 
 ---
 
@@ -77,12 +79,12 @@ Lexidesk AI Voice Reception handles inbound calls for attorneys and law firms 24
 
 ## Use Cases
 
-* Phone Intake for Family Law Firms
-* Criminal Defense Intake Calls
-* Personal Injury Lead Screening
-* Immigration Consultation Intake
-* Probate & Estate Planning Intake
-* Employment Law Intake Automation
+* [Phone Intake for Family Law Firms](https://lexidesk.ai/family-law)
+* [Criminal Defense Intake Calls](https://lexidesk.ai/criminal-defense)
+* [Personal Injury Lead Screening](https://lexidesk.ai/personal-injury)
+* [Immigration Consultation Intake](https://lexidesk.ai/immigration-law)
+* [Probate & Estate Planning Intake](https://lexidesk.ai/probate)
+* [Employment Law Intake Automation](https://lexidesk.ai/employment-law)
 
 ---
 
@@ -215,15 +217,15 @@ Lexidesk works exclusively with consumer-facing law firms.
 
 ## Supported Law Firm Types
 
-* Family Law
-* Personal Injury
-* Criminal Defense
-* Immigration Law
-* Estate Planning
-* Probate
-* Employment Law
-* Conveyancing
-* Real Estate Law
+* [Family Law](https://lexidesk.ai/family-law)
+* [Personal Injury](https://lexidesk.ai/personal-injury)
+* [Criminal Defense](https://lexidesk.ai/criminal-defense)
+* [Immigration Law](https://lexidesk.ai/immigration-law)
+* [Estate Planning](https://lexidesk.ai/estate-planning)
+* [Probate](https://lexidesk.ai/probate)
+* [Employment Law](https://lexidesk.ai/employment-law)
+* [Conveyancing](https://lexidesk.ai/conveyancing)
+* [Real Estate Law](https://lexidesk.ai/real-estate-law)
 
 ## Geography
 
@@ -292,24 +294,30 @@ Typical onboarding takes 3–5 business days.
 
 ---
 
-# Practice Areas & Use Cases
+# Supported Practice Areas
 
-AI Legal Intake
-AI Receptionist for Lawyers
-Legal Intake Automation
-Law Firm Intake Software
-24/7 Legal Call Answering
-AI Chatbot for Attorneys
-Phone Intake for Law Firms
-Legal Lead Qualification
-Attorney Reception Services
-Legal Intake Chat Widget
-Family Law Intake Automation
-Personal Injury Intake AI
-Criminal Defense Intake Software
-Immigration Law Intake System
-Estate Planning Intake Automation
-Probate Intake Assistant
-Employment Law Lead Intake
-Conveyancing Intake Software
-Legal AI Reception Platform
+Lexidesk provides AI-powered intake automation for consumer-facing law firms, including:
+
+* [Family Law AI Intake](https://lexidesk.ai/family-law)
+* [Personal Injury Intake Software](https://lexidesk.ai/personal-injury)
+* [Immigration Law Intake Automation](https://lexidesk.ai/immigration-law)
+* [Criminal Defense AI Reception](https://lexidesk.ai/criminal-defense)
+* [Estate Planning Intake System](https://lexidesk.ai/estate-planning)
+* [Probate Intake Automation](https://lexidesk.ai/probate)
+* [Employment Law Intake Software](https://lexidesk.ai/employment-law)
+* [Conveyancing & Real Estate Law Intake](https://lexidesk.ai/conveyancing)
+
+---
+
+# Legal Intake Features
+
+Lexidesk helps law firms automate:
+
+* [AI Phone Intake for Law Firms](https://lexidesk.ai)
+* [24/7 Legal Call Answering](https://lexidesk.ai)
+* [AI Receptionist for Lawyers](https://lexidesk.ai)
+* [Legal Intake Chatbot](https://lexidesk.ai)
+* [Law Firm Lead Qualification](https://lexidesk.ai)
+* [Legal Consultation Booking](https://lexidesk.ai)
+* [Website Chat Intake for Attorneys](https://lexidesk.ai)
+* [Automated Legal Follow-Up](https://lexidesk.ai)
