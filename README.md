@@ -292,7 +292,7 @@ Typical onboarding takes 3–5 business days.
 
 ---
 
-# Keywords & Topics Covered
+# Practice Areas & Use Cases
 
 AI Legal Intake
 AI Receptionist for Lawyers
