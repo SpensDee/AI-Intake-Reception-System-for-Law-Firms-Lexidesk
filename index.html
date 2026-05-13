@@ -383,10 +383,16 @@
     }
 
     /* ── COMPARE TABLE ── */
+    .table-scroll {
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+      margin-top: 1.75rem;
+      border-radius: var(--radius);
+    }
     table {
       width: 100%;
+      min-width: 540px;
       border-collapse: collapse;
-      margin-top: 1.75rem;
       font-size: .9rem;
     }
     thead tr { background: var(--navy); color: #fff; }
@@ -459,6 +465,11 @@
       .hero-inner { grid-template-columns: 1fr; }
       .hero-stat-block { flex-direction: row; justify-content: flex-start; flex-wrap: wrap; gap: 1rem; }
       .two-col { grid-template-columns: 1fr; }
+      nav { display: none; }
+      .header-inner { justify-content: center; }
+      .practice-grid { grid-template-columns: 1fr 1fr; }
+      .feat-grid { grid-template-columns: 1fr; }
+      h1 { font-size: 1.9rem; }
     }
   </style>
 </head>
@@ -585,6 +596,7 @@
       <h2 id="h-compare">AI Receptionist vs. Traditional Legal Reception</h2>
       <p>Law firms switching from virtual receptionists and call centers consistently report lower costs, faster response, and better intake consistency with Lexidesk.</p>
 
+      <div class="table-scroll" role="region" aria-label="Comparison table" tabindex="0">
       <table>
         <thead>
           <tr>
@@ -605,6 +617,7 @@
           <tr><td>Onboarding &lt; 1 week</td><td class="check">✓</td><td class="cross">✗</td><td class="check">✓</td></tr>
         </tbody>
       </table>
+      </div>
     </section>
 
     <!-- Integrations -->
