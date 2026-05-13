@@ -182,9 +182,52 @@
       letter-spacing: .02em;
     }
     .logo span { color: var(--gold-lt); }
-    nav { display: flex; gap: 1.5rem; }
+    nav { display: flex; gap: 1.5rem; align-items: center; }
     nav a { color: rgba(255,255,255,.72); font-size: .85rem; text-decoration: none; letter-spacing:.03em; }
     nav a:hover { color: var(--gold-lt); }
+
+    /* ── BURGER ── */
+    .burger {
+      display: none;
+      flex-direction: column;
+      justify-content: center;
+      gap: 5px;
+      width: 36px; height: 36px;
+      background: none;
+      border: none;
+      cursor: pointer;
+      padding: 4px;
+      flex-shrink: 0;
+    }
+    .burger span {
+      display: block;
+      height: 2px;
+      background: rgba(255,255,255,.85);
+      border-radius: 2px;
+      transition: transform .25s, opacity .25s;
+      transform-origin: center;
+    }
+    .burger.open span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+    .burger.open span:nth-child(2) { opacity: 0; transform: scaleX(0); }
+    .burger.open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+
+    .mobile-nav {
+      display: none;
+      flex-direction: column;
+      background: var(--navy);
+      border-top: 1px solid rgba(255,255,255,.1);
+      padding: .75rem 0 1rem;
+    }
+    .mobile-nav.open { display: flex; }
+    .mobile-nav a {
+      color: rgba(255,255,255,.75);
+      text-decoration: none;
+      font-size: .9rem;
+      padding: .65rem clamp(1.5rem,5vw,3rem);
+      border-bottom: 1px solid rgba(255,255,255,.06);
+      transition: color .15s, background .15s;
+    }
+    .mobile-nav a:hover { color: var(--gold-lt); background: rgba(255,255,255,.04); }
 
     /* ── HERO ── */
     .hero {
@@ -466,7 +509,8 @@
       .hero-stat-block { flex-direction: row; justify-content: flex-start; flex-wrap: wrap; gap: 1rem; }
       .two-col { grid-template-columns: 1fr; }
       nav { display: none; }
-      .header-inner { justify-content: center; }
+      .burger { display: flex; }
+      .header-inner { justify-content: space-between; }
       .practice-grid { grid-template-columns: 1fr 1fr; }
       .feat-grid { grid-template-columns: 1fr; }
       h1 { font-size: 1.9rem; }
@@ -487,8 +531,19 @@
         <a href="#faq">FAQ</a>
         <a href="https://lexidesk.ai" rel="noopener">Website ↗</a>
       </nav>
+      <button class="burger" id="burger" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
     </div>
   </header>
+
+  <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile">
+    <a href="#features" onclick="closeMenu()">Features</a>
+    <a href="#practice-areas" onclick="closeMenu()">Practice Areas</a>
+    <a href="#integrations" onclick="closeMenu()">Integrations</a>
+    <a href="#faq" onclick="closeMenu()">FAQ</a>
+    <a href="https://lexidesk.ai" rel="noopener">Website ↗</a>
+  </nav>
 
   <!-- ── HERO ── -->
   <div class="hero" role="banner">
@@ -718,5 +773,19 @@
     </div>
   </footer>
 
+  <script>
+    const burger = document.getElementById('burger');
+    const mobileNav = document.getElementById('mobile-nav');
+    burger.addEventListener('click', () => {
+      const open = mobileNav.classList.toggle('open');
+      burger.classList.toggle('open', open);
+      burger.setAttribute('aria-expanded', open);
+    });
+    function closeMenu() {
+      mobileNav.classList.remove('open');
+      burger.classList.remove('open');
+      burger.setAttribute('aria-expanded', false);
+    }
+  </script>
 </body>
 </html>
