@@ -12,6 +12,7 @@ Lexidesk helps law firms answer calls 24/7, capture more qualified leads, reduce
 * [Lexidesk LinkedIn](https://www.linkedin.com/company/lexidesk-ai)
 * [Lexidesk X (Twitter)](https://x.com/LexideskAI)
 * [Lexidesk Instagram](https://www.instagram.com/lexidesk/)
+* [AI Intake Software for Law Firms — Overview](https://spensdee.github.io/AI-Intake-Reception-System-for-Law-Firms-Lexidesk/)
 
 ---
 
