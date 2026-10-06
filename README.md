@@ -25,26 +25,27 @@ The previous version of this repository (13 May 2026) stopped at inbound phone, 
 
 ## Shipped after May 2026
 
-* **Outbound calling** (14 July 2026, updated 23 September 2026). Emma dials leads, with the firm name on the line. Triggers: a Meta ad or form (within seconds, 24/7), the on-site callback widget (call now or a chosen time, attribution kept), a CSV of past enquiries, event no-shows, or will banks, and a CRM or API request (unpaid retainer, missing documents). Each call returns a summary, a written qualification reason, a 1–10 score, and a recording. Dedicated outbound scripts can share memory with inbound. In the US, calls are for people who gave written permission. [Details](https://lexidesk.ai/knowledge-hub/lexidesk-outbound-calling).
+* **Outbound calling** (14 July 2026, updated 23 September 2026). [Solution page](https://lexidesk.ai/solutions/outbound-calling). Emma dials leads with the firm name on the line (branded caller ID) from a pool of local numbers. Triggers: a form or a Meta, Google, LSA, or Yelp lead within seconds, anything that can send a webhook, the on-site callback widget (call now or a chosen time), a CSV batch (old leads, seminar no-shows, annual reviews) with retries inside the firm's hours, and a CRM step such as an unpaid retainer or missing documents. A batch stops when the person answers or asks not to be called. Each call returns a summary, a written qualification reason, a 1–10 score, and a recording. Inbound and outbound can share one agent and Agent Memory. In the US, calls are for people who gave written permission.
 * **Lexidesk MCP** (24 September 2026). Intake conversations connect to Claude, ChatGPT, Microsoft Copilot, Gemini, and other MCP-compatible assistants. No CSV export. Existing Lexidesk permissions apply, and the firm can disconnect at any time. The pricing page currently labels this capability **AI Intake Auditor**. [Launch note](https://lexidesk.ai/knowledge-hub/lexidesk-launches-mcp-integration-to-eliminate-the-black-box-in-law-firm-intake-analytics).
 * **AI video widget.** Included on every plan: a video widget that engages website visitors and books consultations 24/7. [Pricing](https://lexidesk.ai/pricing).
 
 ## Already on the product, missing from this page
 
 * **Agent Memory** (9 April 2026). Cross-channel memory of the situation, what was discussed, decisions, and next steps. A merged summary, not a raw transcript dump. Works across web chat and phone. SMS and email memory is described as still in progress. [Details](https://lexidesk.ai/knowledge-hub/ai-intake-agent-memory-law-firms).
-* **60+ languages** on phone and chat, including Spanish and Portuguese. The agent detects the language and can switch mid-conversation. The same intake runs in each language.
+* **74 languages** on phone and chat. The agent detects the language and can switch mid-conversation. The same intake runs in each language. The full list is in the [site FAQ](https://spensdee.github.io/AI-Intake-Reception-System-for-Law-Firms-Lexidesk/#faq).
 * **Lead Lock™.** Named SMS and email follow-up built from prior conversations and the firm's own selling points.
 * **Retainer signing and payment links** on the call or in chat, next to booking and warm transfer.
-* **Warm transfer with a summary before pickup**, including when the caller asks for a person. After-hours urgency can escalate to an on-call attorney.
+* **Warm transfer with a summary before pickup**, including when the caller asks for a person. If the operator does not confirm the connection, the AI stays on the line and continues the conversation with the client. After-hours urgency can escalate to an on-call attorney.
 * **Caller-type routing** for new leads, existing clients, opposing counsel, court clerks, and vendors. Non-lead calls become a structured message. A caller who asks for an attorney by name is transferred if that person is free, or a message is taken.
 * **Unlimited concurrent calls.** No busy signal. Multiple numbers can route in: practice-area lines, campaign numbers, and the main firm number.
 * **Forms and ads** as channels, not only phone and website chat.
 * **Marketing attribution** on chat and the callback widget: channel, campaign, referrer, landing page, and pages viewed, synced with the intake into the CRM.
+* **Website analytics** (in the product; a public page is not published yet). Visitor sessions, acquisition by channel, and the funnel from visit to started chat, qualified lead, booked consult, or signed retainer, in one view with CallRail attribution.
 * **CRM field mapping** into specific pipelines, custom fields, and matter types. Written reasons sit next to the 1–10 score.
 * **Script deployment.** Version history, simulation testing before a script change, A/B tests, and rollback.
 * **Chat install.** One embed script, in under 10 minutes, including WordPress, Webflow, and Squarespace. Floating widget, inline embed, or button trigger.
 * **Integrations that were not listed:** Actionstep, HighLevel, CallRail for call attribution, and a custom webhook. Neos, Zapier, Make, and n8n stay in the published list.
-* **Security statement** published with the MCP launch: Microsoft Azure, aligned with ISO 27001, SOC 1, SOC 2 Type II, and GDPR. Encryption in transit and at rest. Role-based internal access. Call recordings use a consent notice at the start of the call.
+* **Security.** Microsoft Azure. Approved wording: aligned with ISO 27001 and SOC 2 controls. Encryption in transit and at rest. Role-based access. Call recordings use a consent notice at the start of the call.
 * **Commercial terms on the pricing page:** one flat monthly fee that scales with call and chat volume, not with the feature list. Month to month. Spam and duplicate contacts are not counted. A dedicated AI engineer builds the agent in 2–3 days. Most firms go live in 3–5 business days after testing real calls. The first two weeks include unlimited changes.
 * **Ethics framing** on the phone, chat, and receptionist pages: configurable AI disclosure, no legal advice, no attorney-client relationship formed during intake, and design against applicable ABA Model Rules on confidentiality.
 
@@ -68,19 +69,20 @@ Lexidesk provides:
 * Agent Memory across phone and chat
 * AI Video Widget for law firm websites
 * Lexidesk MCP / AI Intake Auditor
-* 60+ languages, including Spanish and Portuguese
+* 74 languages, including Spanish and Portuguese
 * Retainer signing and payment links on the call or in chat
 
 The platform is designed specifically for:
 
-* [Family Law Firms](https://lexidesk.ai/family-law)
-* [Personal Injury Lawyers](https://lexidesk.ai/personal-injury)
-* [Immigration Attorneys](https://lexidesk.ai/immigration-law)
-* [Criminal Defense Law Firms](https://lexidesk.ai/criminal-defense)
-* [Estate Planning Lawyers](https://lexidesk.ai/estate-planning)
-* [Probate Attorneys](https://lexidesk.ai/probate)
-* [Employment Law Firms](https://lexidesk.ai/employment-law)
-* [Conveyancing & Real Estate Law Firms](https://lexidesk.ai/conveyancing)
+* [Family Law Firms](https://lexidesk.ai/practice-areas/family)
+* [Personal Injury Lawyers](https://lexidesk.ai/practice-areas/personal-injury)
+* [Immigration Attorneys](https://lexidesk.ai/practice-areas/immigration)
+* [Criminal Defense Law Firms](https://lexidesk.ai/practice-areas/criminal-defense)
+* [Estate Planning Lawyers](https://lexidesk.ai/practice-areas/estate-planning)
+* [Probate Attorneys](https://lexidesk.ai/practice-areas/probate)
+* [Employment Law Firms](https://lexidesk.ai/practice-areas/employment)
+* [Conveyancing & Real Estate Law Firms](https://lexidesk.ai/practice-areas/conveyancing)
+* Medical Malpractice (intake is live; a public practice page is not published yet)
 
 ---
 
@@ -102,7 +104,7 @@ The platform can:
 * Send Lead Lock™ follow-up sequences to unconverted leads
 * Route by caller type, practice area, team, or named attorney
 * Refer unqualified leads to partner law firms
-* Answer in 60+ languages and switch mid-conversation
+* Answer in 74 languages and switch mid-conversation
 
 ---
 
@@ -120,19 +122,19 @@ Lexidesk AI Voice Reception handles inbound calls for attorneys and law firms 24
 * Caller-type flows for new leads, existing clients, opposing counsel, court, and vendors
 * After-hours urgency escalation to an on-call attorney
 * AI disclosure options and a recording consent notice
-* 60+ languages, with detection and a mid-conversation switch
+* 74 languages, with detection and a mid-conversation switch
 * Approximate engagement rate: 95%
 * Handles overflow and after-hours legal intake
 * Outbound calling from Meta leads, forms, the callback widget, CSV lists, and CRM workflows
 
 ## Use Cases
 
-* [Phone Intake for Family Law Firms](https://lexidesk.ai/family-law)
-* [Criminal Defense Intake Calls](https://lexidesk.ai/criminal-defense)
-* [Personal Injury Lead Screening](https://lexidesk.ai/personal-injury)
-* [Immigration Consultation Intake](https://lexidesk.ai/immigration-law)
-* [Probate & Estate Planning Intake](https://lexidesk.ai/probate)
-* [Employment Law Intake Automation](https://lexidesk.ai/employment-law)
+* [Phone Intake for Family Law Firms](https://lexidesk.ai/practice-areas/family)
+* [Criminal Defense Intake Calls](https://lexidesk.ai/practice-areas/criminal-defense)
+* [Personal Injury Lead Screening](https://lexidesk.ai/practice-areas/personal-injury)
+* [Immigration Consultation Intake](https://lexidesk.ai/practice-areas/immigration)
+* [Probate & Estate Planning Intake](https://lexidesk.ai/practice-areas/probate)
+* [Employment Law Intake Automation](https://lexidesk.ai/practice-areas/employment)
 
 ---
 
@@ -148,7 +150,7 @@ The AI chat widget can:
 * Offer a callback now or at a chosen time (outbound calling)
 * Record channel, campaign, referrer, landing page, and pages viewed
 * Send intake summaries to law firms
-* Operate 24/7 in 60+ languages
+* Operate 24/7 in 74 languages
 * AI video widget that engages visitors and books consultations
 
 ## Deployment Options
@@ -233,27 +235,41 @@ The analytics dashboard helps law firms understand intake performance and lead q
 * Referral trends
 * Lead source performance
 
+## Website analytics
+
+In the product now. A public page for this view is not published yet.
+
+* Visitor sessions
+* Acquisition by channel (paid search, organic search, paid social, referral, direct, and others)
+* Funnel per source: visitors, started chat, qualified, booked consult, or signed retainer
+* Web attribution and CallRail attribution in one filtered table
+
 ---
 
 # CRM & Legal Software Integrations
 
 Lexidesk integrates with major legal CRMs and automation tools.
 
-## Native Integrations
+## Native integrations
 
-* HubSpot
-* Clio Grow
-* Clio Manage
-* Lawmatics
-* Neos
-* Actionstep
-* HighLevel
-* CallRail (call attribution)
-* Zapier
-* Make
-* n8n
-* Custom webhook
-* Lexidesk MCP for Claude, ChatGPT, Microsoft Copilot, Gemini, and other MCP-compatible assistants
+Each name links to its page on lexidesk.ai. The full index is [Integrations](https://lexidesk.ai/integrations).
+
+* [Clio Manage](https://lexidesk.ai/integrations/clio-manage)
+* [Clio Grow](https://lexidesk.ai/integrations/clio-grow)
+* [HubSpot](https://lexidesk.ai/integrations/hubspot)
+* [Lawmatics](https://lexidesk.ai/integrations/lawmatics)
+* [Actionstep](https://lexidesk.ai/integrations/actionstep)
+* [HighLevel](https://lexidesk.ai/integrations/highlevel)
+* [Neos](https://lexidesk.ai/integrations/neos)
+* [CallRail](https://lexidesk.ai/integrations/callrail) — call attribution, both ways
+* [Dialpad](https://lexidesk.ai/integrations/dialpad)
+* [Calendly](https://lexidesk.ai/integrations/calendly)
+* [Acuity](https://lexidesk.ai/integrations/acuity)
+* [Any scheduler](https://lexidesk.ai/integrations/any-scheduler)
+* [Custom webhook, Zapier, Make, n8n](https://lexidesk.ai/integrations/custom)
+* [Lexidesk MCP / AI Intake Auditor](https://lexidesk.ai/solutions/ai-intake-auditor) for Claude, ChatGPT, Microsoft Copilot, Gemini, and other MCP clients
+
+Built natively when a firm asks, with no public page yet: MyCase, Filevine, Litify, Salesforce, CASEpeer, Lawcus, GrowPath, PracticePanther, SmartAdvocate.
 
 ## Data Sync
 
@@ -278,15 +294,15 @@ Lexidesk works exclusively with consumer-facing law firms.
 
 ## Supported Law Firm Types
 
-* [Family Law](https://lexidesk.ai/family-law)
-* [Personal Injury](https://lexidesk.ai/personal-injury)
-* [Criminal Defense](https://lexidesk.ai/criminal-defense)
-* [Immigration Law](https://lexidesk.ai/immigration-law)
-* [Estate Planning](https://lexidesk.ai/estate-planning)
-* [Probate](https://lexidesk.ai/probate)
-* [Employment Law](https://lexidesk.ai/employment-law)
-* [Conveyancing](https://lexidesk.ai/conveyancing)
-* [Real Estate Law](https://lexidesk.ai/real-estate-law)
+* [Family Law](https://lexidesk.ai/practice-areas/family)
+* [Personal Injury](https://lexidesk.ai/practice-areas/personal-injury)
+* [Criminal Defense](https://lexidesk.ai/practice-areas/criminal-defense)
+* [Immigration Law](https://lexidesk.ai/practice-areas/immigration)
+* [Estate Planning](https://lexidesk.ai/practice-areas/estate-planning)
+* [Probate](https://lexidesk.ai/practice-areas/probate)
+* [Employment Law](https://lexidesk.ai/practice-areas/employment)
+* [Conveyancing and Real Estate Law](https://lexidesk.ai/practice-areas/conveyancing)
+* Medical Malpractice (intake is live; a public practice page is not published yet)
 
 ## Geography
 
@@ -367,14 +383,15 @@ From the [pricing page](https://lexidesk.ai/pricing): one flat monthly fee that 
 
 Lexidesk provides AI-powered intake automation for consumer-facing law firms, including:
 
-* [Family Law AI Intake](https://lexidesk.ai/family-law)
-* [Personal Injury Intake Software](https://lexidesk.ai/personal-injury)
-* [Immigration Law Intake Automation](https://lexidesk.ai/immigration-law)
-* [Criminal Defense AI Reception](https://lexidesk.ai/criminal-defense)
-* [Estate Planning Intake System](https://lexidesk.ai/estate-planning)
-* [Probate Intake Automation](https://lexidesk.ai/probate)
-* [Employment Law Intake Software](https://lexidesk.ai/employment-law)
-* [Conveyancing & Real Estate Law Intake](https://lexidesk.ai/conveyancing)
+* [Family Law AI Intake](https://lexidesk.ai/practice-areas/family)
+* [Personal Injury Intake Software](https://lexidesk.ai/practice-areas/personal-injury)
+* [Immigration Law Intake Automation](https://lexidesk.ai/practice-areas/immigration)
+* [Criminal Defense AI Reception](https://lexidesk.ai/practice-areas/criminal-defense)
+* [Estate Planning Intake System](https://lexidesk.ai/practice-areas/estate-planning)
+* [Probate Intake Automation](https://lexidesk.ai/practice-areas/probate)
+* [Employment Law Intake Software](https://lexidesk.ai/practice-areas/employment)
+* [Conveyancing & Real Estate Law Intake](https://lexidesk.ai/practice-areas/conveyancing)
+* Medical Malpractice intake (public practice page not published yet)
 
 ---
 
@@ -390,6 +407,6 @@ Lexidesk helps law firms automate:
 * [Legal Consultation Booking](https://lexidesk.ai)
 * [Website Chat Intake for Attorneys](https://lexidesk.ai)
 * [Automated Legal Follow-Up](https://lexidesk.ai)
-* [AI Outbound Calling](https://lexidesk.ai/knowledge-hub/lexidesk-outbound-calling)
+* [AI Outbound Calling](https://lexidesk.ai/solutions/outbound-calling)
 * [Agent Memory](https://lexidesk.ai/knowledge-hub/ai-intake-agent-memory-law-firms)
 * [Lexidesk MCP](https://lexidesk.ai/knowledge-hub/lexidesk-launches-mcp-integration-to-eliminate-the-black-box-in-law-firm-intake-analytics)
